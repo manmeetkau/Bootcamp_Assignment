@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1f2777-6d18-4e21-833c-739abd3d387e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java8_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ques1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Supplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inter1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/predicate.java" afterDir="false" />
-    </list>
+    <list default="true" id="0f1f2777-6d18-4e21-833c-739abd3d387e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
