@@ -15,26 +15,25 @@ import lombok.ToString;
 @Table(name="employees")
 public class Employee {
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
-	public Long empId;
+	public int empId;
 	public String empName;
-	public String empEmail;
+	public String empDesignation;
 	
 	public Employee() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Employee(Long empId, String empName, String empEmail) {
+	public Employee(String empDesignation,String empName,int empId ) {
 		super();
 		this.empId = empId;
 		this.empName = empName;
-		this.empEmail = empEmail;
+		this.empDesignation = empDesignation;
 	}
-	public Long getEmpId() {
+	public int getEmpId() {
 		return empId;
 	}
-	public void setEmpId(Long empId) {
+	public void setEmpId(int empId) {
 		this.empId = empId;
 	}
 	public String getEmpName() {
@@ -43,16 +42,16 @@ public class Employee {
 	public void setEmpName(String empName) {
 		this.empName = empName;
 	}
-	public String getEmpEmail() {
-		return empEmail;
+	public String getEmpDesignation() {
+		return empDesignation;
 	}
-	public void setEmpEmail(String empEmail) {
-		this.empEmail = empEmail;
+	public void setEmpDesignation(String empEmail) {
+		this.empDesignation = empEmail;
 	}
 
 	@Override
 	public String toString() {
-		return "Employee [empId=" + empId + ", empName=" + empName + ", empEmail=" + empEmail + "]";
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empEmail=" + empDesignation+ "]";
 	}
 	
 	
