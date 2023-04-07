@@ -25,7 +25,7 @@ public interface Employeerepository extends CrudRepository<Employee,Integer> {
 
     @Query("select Min(salary) from Employee")
     Integer FindMinSal();
-    @Query(value = "select emp_id,emp_first_name,emp_age from employee_table where emp_last_name Like '%Singh%'", nativeQuery = true)
+    @Query(value = "select emp_id,emp_first_name,emp_age from employee_table where emp_last_name Like '%Singh'", nativeQuery = true)
     List<Object[]> findallnative();
 
 
